@@ -1,1 +1,1 @@
-add_executable(single-instance single-instance.c)
+add_executable(single_instance_example single_instance.c single_instance_example.c)
