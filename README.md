@@ -7,11 +7,11 @@ This library aims at being a tool completing the standard library and going furt
 ## List of features
 
 * system
-    - instance detection
-    - argument forwarding
+    - single process
+    - daemon creation
 
 * patterns
-    - immutable object
+    - immutable
     - smart reference
     - object factory
 
