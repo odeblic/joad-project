@@ -1,0 +1,1 @@
+add_executable(generic_convolution_example generic_convolution_example.cpp generic_convolution.cpp)
