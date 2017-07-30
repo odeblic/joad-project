@@ -13,6 +13,7 @@ This library aims at being a tool completing the standard library and going furt
 * patterns
     - immutable
     - smart reference
+    - fly weight
     - object factory
 
 * console
