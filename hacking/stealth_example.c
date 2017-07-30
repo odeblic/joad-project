@@ -4,6 +4,10 @@
 #include <sys/resource.h>
 #include <unistd.h>
 
+// use a source mangler (change the names of symbols before compilation)
+
+// qplit the work in diverse programs with different technologies to become untraceable
+
 int main(int argc, char ** argv)
 {
     printf("original program name: %s\n", argv[0]);
