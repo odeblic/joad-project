@@ -1,6 +1,15 @@
 // absolute max number of messages per period
 int max;
 
+
+class Message;
+
+void waitAndPush(Message& msg);
+void queueAndPush(Message& msg);
+bool pushOrCancel(Message& msg);
+bool tryToPush(Message& msg);
+
+
 // required average number of messages per period
 std::deque<int> window;
 
