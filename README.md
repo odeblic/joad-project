@@ -30,6 +30,9 @@ This library aims at being a tool completing the standard library and going furt
 * algorithms
     - generalized convolution
 
+* network
+    - message serialization
+
 * hacking
     - flooding attack
     - fork bomb
