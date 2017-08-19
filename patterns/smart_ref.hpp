@@ -16,6 +16,8 @@ private:
 
     Block * block;
 
+    //static std::vector<Reference> reference_list
+
 public:
     Reference(const Reference & other) noexcept : block(other.block)
     {
@@ -29,11 +31,13 @@ public:
         if (--block->counter == 0)
         {
             delete block;
+            //remove from reference list
         }
     }
 
     Reference make() noexcept
     {
+        //make object and add to reference list
         return Reference();
     }
 };
